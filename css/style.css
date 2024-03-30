@@ -1,0 +1,141 @@
+body {
+    background-image: url('../images/bg-1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    font-family: 'EB Garamond', serif;
+}
+
+section {
+    margin-top: 150px;
+}
+
+.card a {
+    text-decoration: none;
+    color: #6b6b6b;
+}
+
+.card-body p {
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+
+.skill-level {
+    display: flex;
+  }
+  
+.circle {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background-color: #ccc; /* default color */
+}
+
+.php .circle:nth-child(-n+4) {
+    background-color: #37c400;
+}
+
+.javascript .circle:nth-child(-n+3) {
+    background-color: #37c400;
+}
+
+.html .circle:nth-child(-n+4) {
+    background-color: #37c400;
+}
+
+.python .circle:nth-child(-n+3) {
+    background-color: #37c400;
+}
+
+.css .circle:nth-child(-n+2) {
+    background-color: #37c400;
+}
+
+.c-sharp .circle:nth-child(-n+2) {
+    background-color: #37c400;
+}
+  
+
+.blog img {
+    max-width: 50%;
+}
+
+.blog p {
+    text-align: justify;
+}
+
+.blog article {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    background: white;
+}
+.post-content {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.post-meta {
+    font-size: 11px;
+    letter-spacing: 0.07rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    color: rgba(0, 0, 0, 0.4);
+    margin-bottom: 10px;
+}
+
+.info-item {
+    text-align: center;
+}
+.info-item i {
+    font-size: 48px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.info-item h3 {
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+}
+
+.info-item-borders {
+    border-left: 1px solid #b9b9b9;
+    border-right: 1px solid #b9b9b9;
+}
+
+.info-item a {
+    color: #6b6b6b;
+}
+
+.info-item p {
+    color: #6b6b6b;
+}
+
+.info-item address {
+    color: #6b6b6b;
+}
+
+.contact-form {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    background: white;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
