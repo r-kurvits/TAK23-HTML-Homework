@@ -38,30 +38,25 @@ section {
     background-color: #ccc; /* default color */
 }
 
-.php .circle:nth-child(-n+4) {
+.one .circle:nth-child(-n+1) {
     background-color: #37c400;
 }
 
-.javascript .circle:nth-child(-n+3) {
+.two .circle:nth-child(-n+2) {
     background-color: #37c400;
 }
 
-.html .circle:nth-child(-n+4) {
+.three .circle:nth-child(-n+3) {
     background-color: #37c400;
 }
 
-.python .circle:nth-child(-n+3) {
+.four .circle:nth-child(-n+4) {
     background-color: #37c400;
 }
 
-.css .circle:nth-child(-n+2) {
+.five .circle:nth-child(-n+5) {
     background-color: #37c400;
 }
-
-.c-sharp .circle:nth-child(-n+2) {
-    background-color: #37c400;
-}
-  
 
 .blog img {
     max-width: 50%;
@@ -75,10 +70,6 @@ section {
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
     padding: 30px;
     background: white;
-}
-.post-content {
-    padding-left: 10%;
-    padding-right: 10%;
 }
 
 .post-meta {
