@@ -58,6 +58,10 @@ section {
     background-color: #37c400;
 }
 
+.blog {
+    margin-top: 150px;
+}
+
 .blog img {
     max-width: 50%;
 }
@@ -80,6 +84,10 @@ section {
     font-family: 'Inter', sans-serif;
     color: rgba(0, 0, 0, 0.4);
     margin-bottom: 10px;
+}
+
+.posts-dates {
+    margin-top: 150px;
 }
 
 .info-item {
